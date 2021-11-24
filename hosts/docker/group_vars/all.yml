@@ -1,0 +1,4 @@
+hoge:
+  update: "update"
+  upgrade: "upgrade"
+  var1: "var1"
