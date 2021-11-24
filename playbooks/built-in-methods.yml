@@ -1,0 +1,35 @@
+- hosts: all
+  tasks:
+    - name: debug hoge
+      debug:
+        var: hoge
+    - name: clear
+      debug:
+        var: hoge.clear
+    - name: copy
+      debug:
+        var: hoge.copy
+    - name: get
+      debug:
+        var: hoge.get
+    - name: items
+      debug:
+        var: hoge.items
+    - name: keys
+      debug:
+        var: hoge.keys
+    - name: pop
+      debug:
+        var: hoge.pop
+    - name: popitem
+      debug:
+        var: hoge.popitem
+    - name: setdefault
+      debug:
+        var: hoge.setdefault
+    - name: update
+      debug:
+        var: hoge.update
+    - name: values
+      debug:
+        var: hoge.values

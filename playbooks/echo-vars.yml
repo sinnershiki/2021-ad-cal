@@ -1,0 +1,14 @@
+- hosts: all
+  tasks:
+    - name: debug hoge
+      debug:
+        var: hoge
+    - name: debug hoge.var1
+      debug:
+        var: hoge.var1
+    - name: debug hoge.upgrade
+      debug:
+        var: hoge.upgrade
+    - name: debug hoge.update
+      debug:
+        var: hoge.update
