@@ -1,3 +1,6 @@
+nginx:
+  update: true
+
 hoge:
   update: "update"
   upgrade: "upgrade"
